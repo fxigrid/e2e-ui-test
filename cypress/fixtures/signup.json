@@ -1,0 +1,13 @@
+{
+"firstname":"First",
+"lastname":"Last",
+"email":"user@nodomain.com",
+"password": "User@123",
+"confirmpassword": "User@123",
+"dateOfEntry":"September 2022",
+"country":"China",
+"degree":"some level",
+"dob": "27-05-2020",
+"postalcode": "123456",
+"favartist": "Robert Downey"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "e2e-ui-test",
+  "version": "1.0.0",
+  "description": "End to End Test for Live Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit A",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.5.0"
+  }
+}
