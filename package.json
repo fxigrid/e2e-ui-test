@@ -4,7 +4,15 @@
   "description": "End to End Test for Live Chat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy": "./node_modules/.bin/cypress",
+    "cy:open": "npm run cy open",
+    "test": "npm run cy run -- -q --headed",
+    "cy:headless": "npm run cy run -- -q",
+    "cy:home": "npm run cy run -- --spec specs/HomePageTest.js",
+    "cy:login": "npm run cy run -- --spec specs/LogInPageTest.js",
+    "cy:signup": "npm run cy run -- --spec specs/SignUpTest.js",
+    "cy:events": "npm run cy run -- --spec specs/EventPageTestjs",
+    "ci": "npm run cy run -- -q"
   },
   "author": "Ankit A",
   "license": "ISC",
