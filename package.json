@@ -11,7 +11,7 @@
     "cy:home": "npm run cy run -- --spec cypress/integration/examples/HomePageTest.js",
     "cy:login": "npm run cy run -- --spec cypress/integration/examples/LogInPageTest.js",
     "cy:signup": "npm run cy run -- --spec cypress/integration/examples/SignUpTest.js",
-    "cy:events": "npm run cy run -- --spec cypress/integration/examples/EventPageTestjs",
+    "cy:events": "npm run cy run -- --spec cypress/integration/examples/EventPageTest.js",
     "ci": "npm run cy run -- -q"
   },
   "author": "Ankit A",
